@@ -9,7 +9,6 @@ while True:
 
     except:
         print("Invalid input")
-
     if smallest is None or num < smallest:
         smallest = num
     if largest is None or num > largest:
